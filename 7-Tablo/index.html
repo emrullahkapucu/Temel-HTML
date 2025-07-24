@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid rgb(174, 0, 0);
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      th {
+        text-align: left;
+      }
+    </style>
+    <!-- text-align yazıları sola yaslaması için-->
+  </head>
+  <body>
+    <table style="width: 100%">
+      <!-- This is a table with 4 columns and 4 rows -->
+      <tr>
+        <!-- Table header -->
+        <th>Ad</th>
+        <th>SoyAd</th>
+        <th>Yaş</th>
+      </tr>
+
+      <tr>
+        <td>emrullah</td>
+        <td>kapucu</td>
+        <td>23</td>
+      </tr>
+
+      <tr>
+        <td>utku</td>
+        <td>kesikbas</td>
+        <td>19</td>
+      </tr>
+    </table>
+
+    <table style="width: 100%">
+      <tr>
+        <th>Ad</th>
+        <th>SoyAd</th>
+        <th>Yaş</th>
+      </tr>
+
+      <tr>
+        <td>emrullah</td>
+        <td colspan="2 ">kapucu</td>
+      </tr>
+
+      <tr>
+        <td>utku</td>
+        <td>kesikbas</td>
+        <td>19</td>
+      </tr>
+    </table>
+
+    <table style="width: 100%">
+      <caption>
+        ÖĞRENCİ LİSTESİ
+      </caption>
+      <tr>
+        <th>Ad</th>
+        <th>SoyAd</th>
+        <th>Yaş</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">emrullah</td>
+        <td>kapucu</td>
+        <td>23</td>
+      </tr>
+
+      <tr>
+        <td>kesikbas</td>
+        <td>19</td>
+      </tr>
+    </table>
+  </body>
+</html>
